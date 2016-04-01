@@ -4,7 +4,7 @@ using UnityEngine;
 public class SimpleLoad : MonoBehaviour {
 	[MenuItem("Assets/SimpleLoad")]
 	private static void Handle1() {
-		AssetBundle bundle = AssetBundle.LoadFromFile(@"F:\Work\Test\TestAssetBundle\AssetBundles\77\myassets.cube2");
+		AssetBundle bundle = AssetBundle.LoadFromFile(@"F:\Work\Test\TestAssetBundle\AssetBundles\77\myassets");
 
 		foreach (var name in bundle.GetAllAssetNames())
 			Debug.Log(name);
